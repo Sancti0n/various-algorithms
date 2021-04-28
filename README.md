@@ -6,7 +6,7 @@ Some algorithms I had to write depending on the situation
 
 ## Functions :
 
-- allCombinations()
+- allCombinations
 - mathCombinations
 
 
