@@ -15,7 +15,6 @@ def allCombinations(array: list, begin: int = 0, subarray: bool = False):
             if subarray: temp.append(value)
             else: temp.append(value)
         return(temp)
-        
 
 ##################################
 # The function returns the combination of all possibilities
