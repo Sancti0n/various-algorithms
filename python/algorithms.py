@@ -63,3 +63,19 @@ def mathCombinations(array: list, duplicate: bool = False):
 # print(mathCombinations(allCombinations([])))
 # -> []
 ##################################
+
+
+def arrangement(n: int, k: int):
+    if k>n: return 0
+    x = 1
+    i = n-k+1
+    while i<=n:
+        x*=i
+        i+=1
+    return x
+
+##################################
+# number of arrangements
+# print(arrangement(5,3))
+# -> 60
+##################################
