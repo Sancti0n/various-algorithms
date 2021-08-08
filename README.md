@@ -8,6 +8,8 @@ Some algorithms I had to write depending on the situation
 
 - allCombinations
 - mathCombinations
+- arrangement
+- substituteValue
 
 
 ## License

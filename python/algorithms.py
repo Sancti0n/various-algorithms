@@ -79,3 +79,23 @@ def arrangement(n: int, k: int):
 # print(arrangement(5,3))
 # -> 60
 ##################################
+
+
+def substituteValue(a, b):
+    if isinstance(a, int) and isinstance(b, int):
+        a = a + b
+        b = a - b
+        a = a - b
+        return a, b
+    c = a
+    a = b
+    b = c
+    return a, b
+
+##################################
+# substitions of values
+# print(substituteValue(0,1))
+# -> (1, 0)
+# print(substituteValue("truc","cou"))
+# -> ('cou', 'truc')
+##################################
